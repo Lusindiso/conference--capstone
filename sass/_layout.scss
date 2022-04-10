@@ -44,15 +44,25 @@
 	}
 }
 
+.partner {
+	background: $black;
+	padding: 4rem 2rem;
+}
+
 .footer {
-	&-top {
-		background: $black;
-		padding: 4rem 2rem;
+	background: $grey;
+	padding: 7rem 2rem;
+
+	&-container {
+		display: flex;
 	}
 
-	&-bottom {
-		background: $grey;
+	&__copy {
+		padding: 0.5rem 0 0 5rem;
+
+		@media only screen and (max-width: 767px) {
+			padding-left: 3rem;
+		}
 	}
-
-
+	
 }
