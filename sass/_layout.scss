@@ -21,11 +21,10 @@
 	.nav {
 		display: flex;
 		justify-content: space-between;
-		height: 10rem;
+		height: 8rem;
 		max-width: 110rem;
 		margin: 0 auto;
 		align-items: center;
-		background-color: #fff;
 
 		&__list {
 			display: flex;
