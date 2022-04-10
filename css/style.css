@@ -56,6 +56,22 @@ a {
   background: rgba(211, 211, 211, 0.3);
   height: 5rem;
 }
+.header .fa-bars {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .header .fa-bars {
+    font-size: 4rem;
+    position: fixed;
+    top: 2rem;
+    left: 4rem;
+    color: #272a31;
+    display: block;
+  }
+  .header .fa-bars:hover {
+    cursor: pointer;
+  }
+}
 
 .header > * {
   padding: 0 2rem;
@@ -88,6 +104,11 @@ a {
 }
 .header .nav__list {
   display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .header .nav {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

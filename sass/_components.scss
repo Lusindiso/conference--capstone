@@ -51,4 +51,22 @@
 		background:rgba(#d3d3d3, 0.3);
 		height: 5rem;
 	}
+
+	.fa-bars {
+		display: none;
+
+		@media only screen and (max-width: 767px){
+			font-size: 4rem;
+			position: fixed;
+			top: 2rem;
+			left: 4rem;
+			color: #272a31;
+			display: block;
+			&:hover {
+				cursor: pointer;
+				
+			}
+		}
+	}
+	
 }
