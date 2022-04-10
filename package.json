@@ -1,0 +1,26 @@
+{
+  "name": "conference--capstone",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.50.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lusindiso/conference--capstone.git"
+  },
+  "author": "Lusindiso Ntanjana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lusindiso/conference--capstone/issues"
+  },
+  "homepage": "https://github.com/Lusindiso/conference--capstone#readme"
+}

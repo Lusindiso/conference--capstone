@@ -1,0 +1,27 @@
+.header-top__navbar {
+	&--item {
+		
+	}
+
+	&--link {
+		padding: 1rem;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	& > *:not(:last-child) {
+		margin-right: 0.5rem;
+	}
+
+	
+
+}
+
+.nav__list {
+	&--link {
+		padding: 1rem;
+		color: #272a31;
+		font-size: 1.6rem;
+	}
+
+}
