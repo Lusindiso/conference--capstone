@@ -26,30 +26,50 @@ a {
 }
 
 .header-top__navbar--link {
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   text-decoration: none;
   color: #fff;
 }
-.header-top__navbar > *:not(:last-child) {
-  margin-right: 0.5rem;
+.header-top__navbar--link:hover {
+  color: #ec5242;
 }
-
-.nav__list--link {
-  padding: 1rem;
+.header .nav-log__link--img {
+  width: 18rem;
+}
+.header .nav__list--link {
+  padding: 1rem 1.5rem;
   color: #272a31;
   font-size: 1.6rem;
 }
+.header .nav__list--link:hover {
+  color: #ec5242;
+}
+.header .nav .compaign {
+  color: #ec5242;
+  border: 4px solid #ec5242;
+  margin-left: 3rem;
+}
+.header .nav .active {
+  color: #ec5242;
+}
+.header-bottom {
+  background: rgba(211, 211, 211, 0.3);
+  height: 5rem;
+}
 
+.header > * {
+  padding: 0 2rem;
+}
 .header-top {
   background: #272a31;
   color: #fff;
 }
 .header-top__navbar {
   display: flex;
+  padding-right: 0.5rem;
   height: 3.5rem;
   max-width: 110rem;
   margin: 0 auto;
-  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
