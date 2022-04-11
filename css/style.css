@@ -259,12 +259,21 @@ a {
   }
 }
 
+.featured {
+  color: #272a31;
+  background: rgba(211, 211, 211, 0.2);
+}
+.featured__speakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .partner {
   background: #272a31;
 }
 
 .footer {
-  background: #d3d3d3;
+  background: rgba(211, 211, 211, 0.2);
   padding: 7rem 2rem;
 }
 .footer-container {

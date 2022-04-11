@@ -61,12 +61,22 @@
 	}
 }
 
+.featured {
+	color: $black;
+	background: rgba($grey,0.2);
+
+	&__speakers {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
 .partner {
 	background: $black;
 }
 
 .footer {
-	background: $grey;
+	background: rgba($grey,0.2);
 	padding: 7rem 2rem;
 
 	&-container {
