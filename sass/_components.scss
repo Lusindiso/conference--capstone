@@ -75,6 +75,13 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	transition: all 0.2s ease;
+	box-sizing: border-box;
+	align-content: center;
+	&:hover {
+		border: 2px solid $grey;
+		transform: scale(1.05);
+	}
 
 	@media only screen and (max-width: 767px){
 		flex-direction: row;
@@ -150,6 +157,15 @@
 		color: $red;
 		font-size: 1.5rem;
 		font-style: italic;
+		position: relative;
+
+		&:before {
+			content : "";
+			position: absolute;
+			bottom: -1rem;
+			width: 2.5rem;
+			border-bottom: 1px solid $grey;
+		}
 	}
 
 	&--about {

@@ -107,6 +107,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  align-content: center;
+}
+.program__item:hover {
+  border: 2px solid #d3d3d3;
+  transform: scale(1.05);
 }
 @media only screen and (max-width: 767px) {
   .program__item {
@@ -180,6 +187,14 @@ a {
   color: #ec5242;
   font-size: 1.5rem;
   font-style: italic;
+  position: relative;
+}
+.featured__speaker--span:before {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  width: 2.5rem;
+  border-bottom: 1px solid #d3d3d3;
 }
 .featured__speaker--about {
   font-size: 1.4rem;
