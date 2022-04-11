@@ -279,6 +279,25 @@ svg {
   }
 }
 
+.about-logo {
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+}
+.about-logo__logo {
+  max-width: 60rem;
+  border: 2px solid #d3d3d3;
+  padding: 5rem 0;
+  margin: 5rem auto;
+}
+.about-logo__logo--img {
+  max-width: 50rem;
+}
+@media only screen and (max-width: 767px) {
+  .about-logo__logo--img {
+    max-width: 80%;
+  }
+}
+
 .container {
   max-width: 110rem;
   padding: 2rem;
@@ -397,7 +416,17 @@ svg {
   }
 }
 
+.about-logo {
+  max-width: 85rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .about-heading {
+  text-align: center;
+}
+
+.past {
   text-align: center;
 }
 
