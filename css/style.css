@@ -157,6 +157,34 @@ a {
   word-spacing: 5px;
 }
 
+.featured__speaker {
+  position: relative;
+}
+.featured__speaker--bg {
+  position: absolute;
+  left: -1.5rem;
+  top: -1.5rem;
+  z-index: -5;
+  max-width: 100%;
+  height: 7rem;
+  opacity: 0.5;
+}
+.featured__speaker--img {
+  max-width: 100%;
+  height: 15rem;
+}
+.featured__speaker--heading {
+  font-size: 2rem;
+}
+.featured__speaker--span {
+  color: #ec5242;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.featured__speaker--about {
+  font-size: 1.4rem;
+}
+
 .partner {
   color: grey;
 }
@@ -266,6 +294,23 @@ a {
 .featured__speakers {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
+  margin: 6rem auto;
+}
+@media only screen and (max-width: 767px) {
+  .featured__speakers {
+    grid-template-columns: 1fr;
+  }
+}
+.featured__speaker {
+  display: flex;
+  grid-column-gap: 2.5rem;
+  margin-bottom: 7.5rem;
+}
+.featured__speaker--details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .partner {

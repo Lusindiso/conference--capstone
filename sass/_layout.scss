@@ -68,6 +68,24 @@
 	&__speakers {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2rem;
+		margin: 6rem auto;
+
+		@media only screen and (max-width: 767px){
+			grid-template-columns: 1fr;
+		}
+	}
+
+	&__speaker {
+		display: flex;
+		grid-column-gap: 2.5rem;
+		margin-bottom: 7.5rem;
+
+		&--details {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+		}
 	}
 }
 
