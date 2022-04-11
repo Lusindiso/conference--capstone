@@ -47,11 +47,12 @@
 
 .program {
 	background: linear-gradient( rgba($black, 0.97),rgba($black, 0.97)), url('../img/program.jpg');
-
+	color :$grey;
 	&__items {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
 		grid-column-gap: 3px;
+		margin: 5rem auto;
 
 		@media only screen and (max-width: 767px){
 			grid-template-columns: 1fr;
@@ -62,7 +63,6 @@
 
 .partner {
 	background: $black;
-	padding: 4rem 0;
 }
 
 .footer {

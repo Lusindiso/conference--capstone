@@ -44,7 +44,6 @@
 		.active {
 			color:$red;
 		}
-		
 	}
 	
 	&-bottom {
@@ -101,7 +100,6 @@
 	}
 
 	&--p {
-		color: #fff;
 		text-align: center;
 		font-size: 1.6rem;
 		line-height: 2.5rem;
@@ -112,22 +110,25 @@
 	}
 }
 
+.program__btn {
+	text-align: center;
+	margin: 8rem auto;
+
+	&--link {
+		color: $grey;
+		text-transform: uppercase;
+		font-size: 2rem;
+		text-decoration: underline;
+		word-spacing: 5px;
+	}
+}
+
 .partner {
 		color: grey;
 
-	&-heading {
-		font-size: 3rem;
-		width: 4rem;
-		margin: 0 auto;
-		display: flex;
-		justify-content: center;
-		border-bottom: 1px solid $red;
-		padding-bottom: 1.5rem;
-	}
-
 	&__list {
 		font-size: 3rem;
-		margin-top: 4rem;
+		margin: 5rem auto;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
