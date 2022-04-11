@@ -1,5 +1,6 @@
 
 .header {
+	color:rgba($black, 0.9);
 	&-top__navbar {
 		&--item {
 			
@@ -46,9 +47,24 @@
 		}
 	}
 	
-	&-bottom {
-		background:rgba($grey, 0.3);
-		height: 5rem;
+	&__heading {
+
+		&--p {
+			color: $red;
+			font-size: 5rem;
+			font-weight: 300;
+		}
+
+		&--primary {
+			font-size: 6rem;
+			color:$red;
+			font-weight: 900;
+			font-family: 'COCOGOOSE', sans-serif;
+			background: linear-gradient(rgba(red, 0.8),rgba(red, 0.8)), url("../img/bottombg.png");
+			color: transparent;
+			-webkit-text-fill-color: transparent;
+  		-webkit-background-clip: text;
+		}
 	}
 
 	.fa-bars {
@@ -67,6 +83,20 @@
 			}
 		}
 	}
+
+	&-paragraph {
+		max-width: 65rem;
+		border: 4px solid #fff;
+		line-height: 3rem;
+		padding: 2rem;
+	}
+
+	&-date {
+		font-size: 3rem;
+		font-family: 'COCOGOOSE', sans-serif;
+		padding: 1.5rem 0;
+
+	}
 }
 
 .program__item {
@@ -75,14 +105,22 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	transition: all 0.2s ease;
+	transition: all 0.3s ease-in-out;
 	box-sizing: border-box;
 	align-content: center;
+	
+
 	&:hover {
-		border: 2px solid $grey;
+		border: 4px solid $grey;
 		transform: scale(1.05);
 	}
 
+	&s:hover >*:not(:hover){
+		transform: scale(0.96);
+	}
+	@media only screen and (min-width: 767px){
+		min-height: 25rem;
+	}
 	@media only screen and (max-width: 767px){
 		flex-direction: row;
 		justify-content: space-around;
@@ -196,7 +234,7 @@
 .footer {
 	color: rgba($black, 0.8);
 	font-size: 1.5rem;
-
+	
 	&__logo--img {
 		width: 30rem;
 
@@ -216,3 +254,4 @@
 		}
 	}
 }
+

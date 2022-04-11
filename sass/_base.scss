@@ -19,6 +19,7 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: 'Lato', sans-serif;
+	color: $black
 }
 
 ul {
@@ -44,7 +45,7 @@ a {
 
 .heading-secondary {
 	font-size: 3rem;
-	margin: 4rem auto;
+	margin: 6rem auto;
 	display: flex;
 	justify-content: center;
 	padding-bottom: 1.5rem;
@@ -57,4 +58,8 @@ a {
 		width: 4.5rem;
 		border-bottom: 1px solid $red;
 	}
+}
+
+svg {
+	fill: #fff;
 }

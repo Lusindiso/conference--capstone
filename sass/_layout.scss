@@ -43,6 +43,14 @@
 			display: none;
 		}
 	}
+
+	&-bottom {
+		background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), url('../img/bottombg.png') no-repeat;
+		background-size: cover;
+		&__container {
+			padding: 12rem 2rem;
+		}
+	}
 }
 
 .program {
@@ -97,6 +105,10 @@
 	background: rgba($grey,0.2);
 	padding: 7rem 2rem;
 
+	&-about {
+		background: $black;
+		color: $grey;
+	}
 	&-container {
 		display: flex;
 	}
@@ -109,4 +121,8 @@
 		}
 	}
 	
+}
+
+.about-heading {
+	text-align: center;
 }
