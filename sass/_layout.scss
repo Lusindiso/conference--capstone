@@ -1,195 +1,189 @@
 .container {
-	max-width: 110rem;
-	padding: 2rem;
-	margin: 0 auto;
+  max-width: 110rem;
+  padding: 2rem;
+  margin: 0 auto;
 }
 
 .header {
-	& > * {
-		padding: 0 2rem;
-	}
-	&-top {
-		background: $black;
-		color: #fff;
+  & > * {
+    padding: 0 2rem;
+  }
 
-		&__navbar {
-			display: flex;
-			padding-right: 0.5rem;
-			height: 3.5rem;
-			max-width: 110rem;
-			margin: 0 auto;
-			justify-content: flex-end;
-			align-items: center;
-		}
+  &-top {
+    background: $black;
+    color: #fff;
 
-		@media only screen and (max-width:767px) {
-			display: none;
-		}
-	}
+    &__navbar {
+      display: flex;
+      padding-right: 0.5rem;
+      height: 3.5rem;
+      max-width: 110rem;
+      margin: 0 auto;
+      justify-content: flex-end;
+      align-items: center;
+    }
 
-	.nav {
-		display: flex;
-		justify-content: space-between;
-		height: 8rem;
-		max-width: 110rem;
-		margin: 0 auto;
-		align-items: center;
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
+  }
 
-		&__list {
-			display: flex;
-		}
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    max-width: 110rem;
+    margin: 0 auto;
+    align-items: center;
 
-		@media only screen and (max-width: 767px){
-			display: none;
-		}
-	}
+    &__list {
+      display: flex;
+    }
 
-	&-bottom {
-		background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), url('../img/bottombg.png') no-repeat;
-		background-size: cover;
-		&__container {
-			padding: 12rem 2rem;
-		}
-	}
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  &-bottom {
+    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('../img/bottombg.png') no-repeat;
+    background-size: cover;
+
+    &__container {
+      padding: 12rem 2rem;
+    }
+  }
 }
 
 .program {
-	background: linear-gradient( rgba($black, 0.97),rgba($black, 0.97)), url('../img/program.jpg');
-	color :$grey;
-	&__items {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		grid-column-gap: 3px;
-		margin: 5rem auto;
+  background: linear-gradient(rgba($black, 0.97), rgba($black, 0.97)), url('../img/program.jpg');
+  color: $grey;
 
-		@media only screen and (max-width: 767px){
-			grid-template-columns: 1fr;
-			grid-row-gap: 1.5rem;
-		}
-	}
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 3px;
+    margin: 5rem auto;
+
+    @media only screen and (max-width: 767px) {
+      grid-template-columns: 1fr;
+      grid-row-gap: 1.5rem;
+    }
+  }
 }
 
 .featured {
-	color: $black;
-	background: rgba($grey,0.2);
+  color: $black;
+  background: rgba($grey, 0.2);
+  position: relative;
 
-	&__speakers {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 2rem;
-		margin: 6rem auto;
+  &__speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    margin: 6rem auto;
 
-		@media only screen and (max-width: 767px){
-			grid-template-columns: 1fr;
-		}
-	}
+    @media only screen and (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
 
-	&__speaker {
-		display: flex;
-		grid-column-gap: 2.5rem;
-		margin-bottom: 7.5rem;
+  &__speaker {
+    display: flex;
+    grid-column-gap: 2.5rem;
+    margin-bottom: 7.5rem;
 
-		&--details {
-			display: flex;
-			justify-content: space-between;
-			flex-direction: column;
-		}
-	}
-}
-
-.partner {
-	background: $black;
+    &--details {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  }
 }
 
 .footer {
-	background: rgba($grey,0.2);
-	padding: 7rem 2rem;
+  &-about {
+    background: $black;
+    color: $grey;
+  }
 
-	&-about {
-		background: $black;
-		color: $grey;
-	}
-	&-container {
-		display: flex;
-	}
+  &-container {
+    display: flex;
+  }
 
-	&__copy {
-		padding: 0.5rem 0 0 5rem;
+  &__copy {
+    padding: 0.5rem 0 0 5rem;
 
-		@media only screen and (max-width: 767px) {
-			padding-left: 3rem;
-		}
-	}
-	
+    @media only screen and (max-width: 767px) {
+      padding-left: 3rem;
+    }
+  }
 }
 
-.about-logo{
-	max-width: 85rem;
-	margin: 0 auto;
-	text-align: center;
+.about-logo {
+  max-width: 85rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid $grey;
 }
 
 .about-heading {
-	text-align: center;
+  text-align: center;
 }
 
 .past {
-	text-align: center;
+  text-align: center;
 }
 
 .past__images {
-	display:flex;
-	grid-column-gap: 2rem;
-	justify-content: space-around;
-	margin: 8rem auto;
-	color: #fff;
+  display: flex;
+  grid-column-gap: 2rem;
+  justify-content: space-around;
+  margin: 8rem auto;
+  color: #fff;
 
-	@media only screen and (max-width: 767px) {
-		flex-direction: column;
-		grid-row-gap: 3rem;
-	}
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+    grid-row-gap: 3rem;
+  }
 
-	&--img {
-		width: 40vw;
-		height: 20vw;
-		position: relative;
-		@media only screen and (max-width: 767px) {
-			margin: 0 auto;
-			width: 80vw;
-			height: 40vw;
-		}
-		p {
-			position: absolute;
-			top: 38%;
+  &--img {
+    width: 40vw;
+    height: 20vw;
+    position: relative;
 
-			font-size: 1.8rem;
-			width: 40vw;
-			
-			span {
-				font-size: 4rem;
-				font-weight: 700;
-			}
+    @media only screen and (max-width: 767px) {
+      margin: 0 auto;
+      width: 80vw;
+      height: 40vw;
+    }
 
-			@media only screen and (max-width: 767px) {
-				width: 80vw;
-				top: 33%;
+    p {
+      position: absolute;
+      top: 38%;
+      font-size: 1.8rem;
+      width: 40vw;
 
-			}
+      span {
+        font-size: 4rem;
+        font-weight: 700;
+      }
 
-		}
+      @media only screen and (max-width: 767px) {
+        width: 80vw;
+        top: 33%;
+      }
+    }
+  }
 
-		
-	}
-	.img1 {
-		background: linear-gradient(rgba($red, 0.6), rgba($red, 0.6)), url('../img/conf1.jpeg') no-repeat;
-		background-size: cover;
+  .img1 {
+    background: linear-gradient(rgba($red, 0.6), rgba($red, 0.6)), url('../img/conf1.jpeg') no-repeat;
+    background-size: cover;
+  }
 
-	}
-
-	.img2 {
-		background: linear-gradient(rgba($red, 0.6), rgba($red, 0.6)), url('../img/conf2.jpg') no-repeat;
-		background-size: cover;
-
-	}
-
+  .img2 {
+    background: linear-gradient(rgba($red, 0.6), rgba($red, 0.6)), url('../img/conf2.jpg') no-repeat;
+    background-size: cover;
+  }
 }
