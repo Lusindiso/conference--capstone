@@ -17,7 +17,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<title>AFM Church</title>
 </head>
@@ -45,9 +45,22 @@
 				</li>
 			</ul>
 		</div>
-		<nav class="nav-mobile">
+		<nav class="nav-mobile" id="menuBtn">
 			<i class="fa-solid fa-bars"></i>
 		</nav>
+		<div class="menu" id="menu">
+				<div>
+					<i class="fa-solid fa-x fa-2x" id="close"></i>
+				</div>
+				<ul class="menu-nav__list">
+					<li class="menu-nav__list--item menuItem"><a href="./about.html" class="menu-nav__list--link active">About</a></li>
+					<li class="menu-nav__list--item menuItem"><a href="#program" class="menu-nav__list--link">Program</a></li>
+					<li class="menu-nav__list--item menuItem"><a href="#speakers" class="menu-nav__list--link">Speakers</a></li>
+					<li class="menu-nav__list--item menuItem"><a href="#partners" class="menu-nav__list--link">Partners</a></li>
+					<li class="menu-nav__list--item menuItem"><a href="#" class="menu-nav__list--link compaign">AFM Compaign</a></li></li>
+				</ul>
+			</nav>
+		</div>
 		<nav class="nav">
 			<div class="nav-logo">
 				<a href="index.html" class="nav-logo__link">
@@ -57,10 +70,10 @@
 			
 			<ul class="nav__list">
 				<li class="nav__list--item"><a href="./about.html" class="nav__list--link active">About</a></li>
-				<li class="nav__list--item"><a href="" class="nav__list--link">Program</a></li>
-				<li class="nav__list--item"><a href="" class="nav__list--link">Join</a></li>
-				<li class="nav__list--item"><a href="" class="nav__list--link">Sponsor</a></li>
-				<li class="nav__list--item"><a href="" class="nav__list--link compaign">AFM Compaign</a></li></li>
+				<li class="nav__list--item"><a href="#program" class="nav__list--link">Program</a></li>
+				<li class="nav__list--item"><a href="#speakers" class="nav__list--link">Speakers</a></li>
+				<li class="nav__list--item"><a href="#partners" class="nav__list--link">Partners</a></li>
+				<li class="nav__list--item"><a href="#" class="nav__list--link compaign">AFM Compaign</a></li></li>
 			</ul>
 		</nav>
 		<section class="header-bottom">
@@ -78,7 +91,7 @@
 		</section>
 	</header>
 	<main class="main">
-		<section class="program">
+		<section class="program" id="program">
 			<div class="container">
 				<h2 class="heading-secondary program-heading">Main Programs</h2>
 				<div class="program__items">
@@ -124,16 +137,16 @@
 				</div>
 			</div>
 		</section>
-		<section class="featured">
+		<section class="featured" id="speakers">
 			<div class="container">
 				<h2 class="heading-secondary">Featured Speakers</h2>
 				<div class="featured__speakers"></div>
 			</div>
 		</section>
-		<section class="partner">
+		<section class="partner" id="partners">
 			<div class="container">
 				<h2 class="heading-secondary partner-heading">
-					Partner
+					Partners
 				</h2>
 				<ul class="partner__list">
 					<li class="partner__list--item ubuntu">Methodist Church</li>
@@ -147,7 +160,9 @@
 	<footer class="footer">
 		<div class="container footer-container">
 			<div class="footer__logo">
-				<img src="./img/logo.png" alt="" class="footer__logo--img">
+				<a href="#">
+				<img src="./img/logo.png" alt="Festival Logo" class="footer__logo--img">
+				</a>
 			</div>
 			<div class="footer__copy">
 				<p class="footer__copy--text">

@@ -1,4 +1,29 @@
-const featured = document.querySelector('.featured__speakers')
+const featured = document.querySelector('.featured__speakers');
+const menu = document.querySelector('.menu');
+const openMenu = document.getElementById('menuBtn')
+const closeMenu = document.getElementById('close')
+const menuItem = document.querySelectorAll('.menuItem')
+
+openMenu.addEventListener('click', (e)=>{
+	if (e.target){
+		menu.style.display = "block"
+	}
+})
+
+closeMenu.addEventListener('click', (e)=>{
+	if (e.target){
+		menu.style.display = "none"
+	}
+})
+
+menuItem.forEach((item)=>{
+	item.addEventListener('click', (e)=>{
+		if (e.target){
+			menu.style.display = "none"
+		}
+	})
+	
+})
 
 const speakers = [
 	{
@@ -40,15 +65,17 @@ const speakers = [
 ]
 
 speakers.forEach((speaker)=> {
-	featured.innerHTML +=
-	`<div class="featured__speaker">
-		<img src="./img/bg.png" alt="Photo of ${speaker.name}" class="featured__speaker--bg"/>
-		<img src="${speaker.urlLink}" alt="Photo of ${speaker.name}" class="featured__speaker--img"/>
-		<div class="featured__speaker--details">
-			<h3 class="featured__speaker--heading">${speaker.name}</h3>
-			<span class="featured__speaker--span">${speaker.job}</span>
-			<p class="featured__speaker--about">${speaker.about}</p>
-		</div>
-	</div>`
+	if (featured){
+		featured.innerHTML +=
+		`<div class="featured__speaker">
+			<img src="./img/bg.png" alt="Photo of ${speaker.name}" class="featured__speaker--bg"/>
+			<img src="${speaker.urlLink}" alt="Photo of ${speaker.name}" class="featured__speaker--img"/>
+			<div class="featured__speaker--details">
+				<h3 class="featured__speaker--heading">${speaker.name}</h3>
+				<span class="featured__speaker--span">${speaker.job}</span>
+				<p class="featured__speaker--about">${speaker.about}</p>
+			</div>
+		</div>`
+	}
 })
 

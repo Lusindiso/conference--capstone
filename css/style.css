@@ -24,6 +24,7 @@ ul {
 a {
   text-decoration: none;
   font-weight: 700;
+  color: inherit;
 }
 
 .ubuntu {
@@ -49,7 +50,7 @@ a {
 .heading-secondary:before {
   content: "";
   position: absolute;
-  top: 5rem;
+  bottom: 0;
   width: 4.5rem;
   border-bottom: 1px solid #ec5242;
 }
@@ -129,6 +130,22 @@ svg {
   font-size: 3rem;
   font-family: "COCOGOOSE", sans-serif;
   padding: 1.5rem 0;
+}
+.header-about__paragraph {
+  max-width: 84rem;
+  border: 1px solid #d3d3d3;
+  line-height: 4rem;
+  padding: 2rem;
+  margin: 5rem auto;
+  text-align: center;
+  background-color: #fff;
+}
+.header .contact {
+  text-align: center;
+  line-height: 3rem;
+}
+.header .contact a {
+  text-decoration: underline;
 }
 
 .program__item {
@@ -298,6 +315,41 @@ svg {
   }
 }
 
+#menu {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  #menu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url("../img/bottombg.png") no-repeat;
+    background-size: cover;
+    z-index: 10;
+  }
+  #menu i {
+    padding: 0.8rem;
+    margin: 2rem;
+  }
+  #menu ul {
+    text-align: center;
+  }
+  #menu li {
+    padding: 1rem auto;
+  }
+  #menu li a {
+    display: block;
+    padding: 1rem;
+    font-size: 3.5rem;
+    margin: 3px 0;
+  }
+  #menu li a:hover {
+    color: #ec5242;
+    background-color: rgba(211, 211, 211, 0.9);
+  }
+}
+
 .container {
   max-width: 110rem;
   padding: 2rem;
@@ -428,6 +480,56 @@ svg {
 
 .past {
   text-align: center;
+}
+
+.past__images {
+  display: flex;
+  grid-column-gap: 2rem;
+  justify-content: space-around;
+  margin: 8rem auto;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .past__images {
+    flex-direction: column;
+    grid-row-gap: 3rem;
+  }
+}
+.past__images--img {
+  width: 40vw;
+  height: 20vw;
+  position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .past__images--img {
+    margin: 0 auto;
+    width: 80vw;
+    height: 40vw;
+  }
+}
+.past__images--img p {
+  position: absolute;
+  top: 38%;
+  font-size: 1.8rem;
+  width: 40vw;
+}
+.past__images--img p span {
+  font-size: 4rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 767px) {
+  .past__images--img p {
+    width: 80vw;
+    top: 33%;
+  }
+}
+.past__images .img1 {
+  background: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url("../img/conf1.jpeg") no-repeat;
+  background-size: cover;
+}
+.past__images .img2 {
+  background: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url("../img/conf2.jpg") no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

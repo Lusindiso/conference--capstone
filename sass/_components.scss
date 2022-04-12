@@ -2,10 +2,6 @@
 .header {
 	color:rgba($black, 0.9);
 	&-top__navbar {
-		&--item {
-			
-		}
-	
 		&--link {
 			padding: 1rem 1.5rem;
 			text-decoration: none;
@@ -95,8 +91,27 @@
 		font-size: 3rem;
 		font-family: 'COCOGOOSE', sans-serif;
 		padding: 1.5rem 0;
-
 	}
+
+	&-about__paragraph {
+		max-width: 84rem;
+		border: 1px solid $grey;
+		line-height: 4rem;
+		padding: 2rem;
+		margin: 5rem auto;
+		text-align: center;
+		background-color: #fff;
+	}
+
+	.contact {
+		text-align: center;
+		line-height: 3rem;
+
+		a{
+			text-decoration: underline;
+		}
+	}
+	
 }
 
 .program__item {
@@ -268,7 +283,42 @@
 
 			@media only screen and (max-width: 767px) {
 				max-width: 80%;
+			}
+		}
+	}
+}
 
+#menu {
+	display: none;
+	@media only screen and (max-width: 767px) {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), url('../img/bottombg.png') no-repeat;
+		background-size: cover;
+		z-index: 10;
+
+		i {
+			padding: 0.8rem;
+			margin: 2rem;
+		}
+
+		ul {
+			text-align: center;
+		}
+		li {
+			padding: 1rem auto;
+			a {
+				display: block;
+				padding: 1rem;
+				font-size: 3.5rem;
+				margin: 3px 0;
+
+				&:hover {
+					color: $red;
+					background-color: rgba($grey, 0.9);
+				}
 			}
 		}
 	}

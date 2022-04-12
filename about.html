@@ -39,10 +39,25 @@
 				</li>
 			</ul>
 		</div>
+		<nav class="nav-mobile" id="menuBtn">
+			<i class="fa-solid fa-bars"></i>
+		</nav>
+		<div class="menu" id="menu">
+				<div>
+					<i class="fa-solid fa-x fa-2x" id="close"></i>
+				</div>
+				<ul class="menu-nav__list">
+					<li class="menu-nav__list--item menuItem"><a href="./index.html" class="menu-nav__list--link active">Home</a></li>
+					<li class="menu-nav__list--item menuItem"><a href="#" class="menu-nav__list--link">Join</a></li>
+					<li class="menu-nav__list--item menuItem"><a href="#" class="menu-nav__list--link">Donate</a></li>
+					<li class="menu-nav__list--item menuItem"><a href="#" class="menu-nav__list--link compaign">AFM Compaign</a></li></li>
+				</ul>
+			</nav>
+		</div>
 		<nav class="nav">
 			<div class="nav-logo">
 				<a href="index.html" class="nav-logo__link">
-					<img src="./img/logo.jpg" alt="" class="nav-log__link--img">
+					<img src="./img/logo.png" alt="" class="nav-log__link--img">
 				</a>
 			</div>
 			<div class="nav-mobile">
@@ -50,17 +65,25 @@
 			</div>
 			<ul class="nav__list">
 				<li class="nav__list--item"><a href="./index.html" class="nav__list--link active">Home</a></li>
-				<li class="nav__list--item"><a href="" class="nav__list--link">Program</a></li>
-				<li class="nav__list--item"><a href="" class="nav__list--link">Join</a></li>
-				<li class="nav__list--item"><a href="" class="nav__list--link">Sponsor</a></li>
-				<li class="nav__list--item"><a href="" class="nav__list--link compaign">AFM Compaign</a></li></li>
+				<li class="nav__list--item"><a href="#" class="nav__list--link">Join</a></li>
+				<li class="nav__list--item"><a href="#" class="nav__list--link">Donate</a></li>
+				<li class="nav__list--item"><a href="#" class="nav__list--link compaign">AFM Compaign</a></li></li>
 			</ul>
 		</nav>
 		<section class="header-bottom">
-			<h1 class="header__heading--primary about-heading">
-				Apostolic Faith Mission<br>
-				Passover festival 2022
-			</h1>
+			<div class="container header-bottom__container">
+				<h1 class="header__heading--primary about-heading">
+					Apostolic Faith Mission<br>
+					Passover festival 2022
+				</h1>
+				<p class="header-about__paragraph">
+					Right from the beginning of the modern-day Pentecostal movement, the name Apostolic Faith Mission (AFM) was synonymous with “Pentecostal”.<br> When the first Pentecostal missionaries came from America, they brought the name with them. <br>Although the name fell into disrepute in America, the AFM in South Africa retained the name.<br>
+					By “Apostolic Faith” the early pioneers wanted to incorporate the apostolate idea in the name of the movement. 
+				</p>
+				<p class="contact">Please contact us per Email for any further questions about AFM Passover Festival <br>
+					<a href="">apostolicfaithmission@gmail.com</a>
+				</p>
+			</div>
 		</section>
 	</header>
 	<main class="main">
@@ -71,7 +94,9 @@
 				</h2>
 				<p class="logo-p">The two prominent symbols in the AFM logo, i.e. the cross and the crown, were used in combination first by the Holiness movement of the 19th century and thereafter by the Zionist movement in America at the end of the 19th century. The original symbols of the cross and the crown date back to the 4th century after Christ.</p>
 				<div class="about-logo__logo">
+					<a href="index.html">
 					<img src="./img/logo.png" alt="" class="about-logo__logo--img">
+					</a>
 				</div>
 			</div>
 		</section>
@@ -82,9 +107,18 @@
 				</h2>
 				<p>Take a look at the past tow AFM Passover Festival which took place in Nigeria and Malawi</p>
 				<div class="past__images">
-					<img src="./img/conf1.jpeg" alt="" class="past-img">
-					<img src="./img/conf2.jpg" alt="" class="past-img">
-
+					<div class="past__images--img img2">
+						<p>
+						<span>2020</span><br>
+						AFM Passover Festival 2020 in Nigeria.
+						</p>
+					</div>
+					<div class="past__images--img img1">
+						<p>
+							<span>2020</span><br>
+							AFM Passover Festival 2020 in Nigeria.
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -92,7 +126,7 @@
 	<footer class="footer footer-about">
 		<div class="container footer-container">
 			<div class="footer__logo">
-				<img src="./img/footer.svg" alt="" class="footer__logo--img">
+				<a href="#"><img src="./img/footer.svg" alt="" class="footer__logo--img"></a>
 			</div>
 			<div class="footer__copy">
 				<p class="footer__copy--text">
@@ -104,5 +138,6 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./script.js"></script>
 </body>
 </html>
