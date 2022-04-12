@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Portfolio Web Page](https://lusindiso.github.io/Microverse-Portfolio/)
+[AFM Passover Festival 2022 Web Page](https://lusindiso.github.io/conference--capstone/)
 
 ## Getting Started
 To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
