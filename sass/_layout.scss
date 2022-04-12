@@ -103,11 +103,6 @@
 }
 
 .footer {
-  &-about {
-    background: $black;
-    color: $grey;
-  }
-
   &-container {
     display: flex;
   }
@@ -119,6 +114,11 @@
       padding-left: 3rem;
     }
   }
+}
+
+#footer-about {
+  background: $black;
+  color: $grey;
 }
 
 .about-logo {

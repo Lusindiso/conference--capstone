@@ -155,10 +155,6 @@ svg {
   flex-direction: column;
 }
 
-.footer-about {
-  background: #272a31;
-  color: #d3d3d3;
-}
 .footer-container {
   display: flex;
 }
@@ -169,6 +165,11 @@ svg {
   .footer__copy {
     padding-left: 3rem;
   }
+}
+
+#footer-about {
+  background: #272a31;
+  color: #d3d3d3;
 }
 
 .about-logo {
@@ -272,14 +273,24 @@ svg {
   font-size: 5rem;
   font-weight: 300;
 }
+@media only screen and (max-width: 467px) {
+  .header__heading--p {
+    font-size: 3rem;
+  }
+}
 .header__heading--primary {
   font-size: 6rem;
   color: #ec5242;
   font-weight: 900;
   font-family: "COCOGOOSE", sans-serif;
-  background: linear-gradient(rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.8)), url("../img/bottombg.png");
+  background: linear-gradient(rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.7)), url("../img/bottombg.png");
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+@media only screen and (max-width: 467px) {
+  .header__heading--primary {
+    font-size: 4rem;
+  }
 }
 .header .fa-bars {
   display: none;

@@ -4,7 +4,6 @@
 
 ![screenshot](./desktop_screenshot.png)
 
-
 ## Built With
 
 - HTML
@@ -15,6 +14,9 @@
 ## Live Demo
 
 [AFM Passover Festival 2022 Web Page](https://lusindiso.github.io/conference--capstone/)
+
+## Presentation
+[Presentation video](https://www.loom.com/share/fd2dcb9d5df44096a96bc4bc5533d99f/)
 
 ## Getting Started
 To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
