@@ -147,6 +147,7 @@ svg {
   display: flex;
   grid-column-gap: 2.5rem;
   margin-bottom: 7.5rem;
+  position: relative;
 }
 .featured__speaker--details {
   display: flex;
