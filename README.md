@@ -1,56 +1,37 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Apostolic Faith Mission(AFM) Passover Festival Page
 
-# Project Name
+> This project we build is based on the passover festival which is held by many Christians/Jews. Passover, also called Pesach, is a major Jewish holiday that celebrates the exodus of the Israelites from slavery in Egypt, which occurs on the 15th day of the Hebrew month of Nisan, the first month of Aviv, or spring. AFM normally run conferences each year to celebrate this holiday, with all different kinds of speakers preaching at the ceremony. This page advertises this ceremony.
 
-> Description the project.
-
+![screenshot](./desktop_screenshot.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- SCSS
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[AFM Passover Festival 2022 Web Page](https://lusindiso.github.io/conference--capstone/)
 
+## Presentation
+[Presentation video](https://www.loom.com/share/fd2dcb9d5df44096a96bc4bc5533d99f/)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+1- Navigate to the button on the top right green "code" button.
+2- In the drop down menu choose "Download Zip".
+3- After extracting the files, you'll have my project on your local machine.
 
-### Setup
+## Author 👤 
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Lusindiso](https://github.com/Lusindiso)
+- Twitter: [@LusindisoNt](https://twitter.com/LusindisoNt)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lusindisontanjana/)
 
 ## 🤝 Contributing
 
@@ -61,12 +42,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
