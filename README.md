@@ -1,6 +1,6 @@
 # Apostolic Faith Mission(AFM) Passover Festival Page
 
-> This project we build is based on the passover festival which is held by many Christians/Jews. Passover, also called Pesach, is a major Jewish holiday that celebrates the exodus of the Israelites from slavery in Egypt, which occurs on the 15th day of the Hebrew month of Nisan, the first month of Aviv, or spring. AFM normally run conferences each year to celebrate this holiday, with all different kinds of speakers preaching at the ceremony. This page advertises this ceremony.
+> This is a fictional website built for a fictional festival. It is built with html, and css and uses Javascript to display the list of featured speakers dynamically.
 
 ![screenshot](./desktop_screenshot.png)
 
